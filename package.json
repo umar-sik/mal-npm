@@ -1,6 +1,6 @@
 {
   "name": "mal-npm",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "npm malware examples.",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,11 @@
   "dependencies": {
       "@hapi/joi": "^17.1.1",
       "marked": "^0.3.16",
-      "cd-themes": "file:./mal-packages/cd-themes",
-      "vgs-staging": "file:./mal-packages/vgs-staging",
-      "frontend-metrics-hotjar": "file:./mal-packages/frontend-metrics-hotjar",
-      "envoy-curses": "file:./mal-packages/envoy-curses",
-      "write-file": "file:./mal-packages/write-file"
+      "cd-themes": "file:./packages/cd-themes",
+      "vgs-staging": "file:./packages/vgs-staging",
+      "frontend-metrics-hotjar": "file:./packages/frontend-metrics-hotjar",
+      "envoy-curses": "file:./packages/envoy-curses",
+      "write-file": "file:./packages/write-file"
   },
   "author": "fkj",
   "license": "ISC"
