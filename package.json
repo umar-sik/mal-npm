@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "node index.js",
-    "postinstall": "echo 'malicious write in line 9 of parent dep (mal-npm)' > '/etc/test->::.txt'"
+    "postinstall": "echo 'malicious write in line 9 of parent (mal-npm@0.0.1)' > '/etc/malpayload->::.txt'"
   },
   "dependencies": {
       "@hapi/joi": "^17.1.1",
@@ -17,6 +17,6 @@
       "envoy-curses": "file:./mal-packages/envoy-curses",
       "write-file": "file:./mal-packages/write-file"
   },
-  "author": "gardev",
+  "author": "fkj",
   "license": "ISC"
 }
