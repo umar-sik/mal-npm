@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "node index.js",
-    "postinstall": "echo 'malicious write in line 9 parent dep (nested-test)' > '/etc/test->::.txt'"
+    "postinstall": "echo 'malicious write in line 9 of parent dep (mal-npm)' > '/etc/test->::.txt'"
   },
   "dependencies": {
       "@hapi/joi": "^17.1.1",
