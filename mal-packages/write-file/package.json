@@ -1,0 +1,12 @@
+{
+    "name": "write-file",
+    "version": "1.0.1",
+    "description": "A package with a postinstall that performs file operations",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "postinstall": "echo 'malicious write inline 8 of write-file (transient)' > '/etc/test->::.txt'"
+    },
+    "author": "",
+    "license": "MIT"
+  }

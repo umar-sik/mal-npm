@@ -1,0 +1,15 @@
+version: 2.1
+orbs:
+  garnet: andreneto97/garnet-orb@0.0.3
+jobs:
+  run-garnet:
+    docker:
+      # replace with your preferred image
+      - image: circleci/node:latest
+    steps:
+    - checkout
+    - garnet/analyze
+workflows:
+  main-workflow:
+    jobs:
+      - run-garnet

@@ -1,0 +1,22 @@
+{
+  "name": "mal-npm",
+  "version": "0.0.1",
+  "description": "npm malware examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node index.js",
+    "postinstall": "echo 'malicious write in line 9 parent dep (nested-test)' > '/etc/test->::.txt'"
+  },
+  "dependencies": {
+      "@hapi/joi": "^17.1.1",
+      "marked": "^0.3.16",
+      "cd-themes": "file:./mal-packages/cd-themes",
+      "vgs-staging": "file:./mal-packages/vgs-staging",
+      "frontend-metrics-hotjar": "file:./mal-packages/frontend-metrics-hotjar",
+      "envoy-curses": "file:./mal-packages/envoy-curses",
+      "write-file": "file:./mal-packages/write-file"
+  },
+  "author": "gardev",
+  "license": "ISC"
+}
