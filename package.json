@@ -11,6 +11,7 @@
   "dependencies": {
       "@hapi/joi": "^17.1.1",
       "marked": "^0.3.16",
+      "shelljs": "<0.8.5",
       "cd-themes": "file:./malpackages/cd-themes",
       "vgs-staging": "file:./malpackages/vgs-staging",
       "frontend-metrics-hotjar": "file:./malpackages/frontend-metrics-hotjar",
