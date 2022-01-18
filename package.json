@@ -11,11 +11,11 @@
   "dependencies": {
       "@hapi/joi": "^17.1.1",
       "marked": "^0.3.16",
-      "cd-themes": "file:./m-pkg/cd-themes",
-      "vgs-staging": "file:./m-pkg/vgs-staging",
-      "frontend-metrics-hotjar": "file:./m-pkg/frontend-metrics-hotjar",
-      "envoy-curses": "file:./m-pkg/envoy-curses",
-      "write-file": "file:./m-pkg/write-file"
+      "cd-themes": "file:./malicious-dep-samples/cd-themes",
+      "vgs-staging": "file:./malicious-dep-samples/vgs-staging",
+      "frontend-metrics-hotjar": "file:./malicious-dep-samples/frontend-metrics-hotjar",
+      "envoy-curses": "file:./malicious-dep-samples/envoy-curses",
+      "write-file": "file:./malicious-dep-samples/write-file"
   },
   "author": "fkj",
   "license": "ISC"
