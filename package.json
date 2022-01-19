@@ -12,11 +12,11 @@
       "@hapi/joi": "^17.1.1",
       "marked": "^0.3.16",
       "shelljs": "<=0.8.3",
-      "cd-themes": "file:./maliciouspackages/cd-themes",
-      "vgs-staging": "file:./maliciouspackages/vgs-staging",
-      "frontend-metrics-hotjar": "file:./maliciouspackages/frontend-metrics-hotjar",
-      "envoy-curses": "file:./maliciouspackages/envoy-curses",
-      "write-file": "file:./maliciouspackages/write-file"
+      "cd-themes": "file:./test1-pkgs/cd-themes",
+      "vgs-staging": "file:./test1-pkgs/vgs-staging",
+      "frontend-metrics-hotjar": "file:./test1-pkgs/frontend-metrics-hotjar",
+      "envoy-curses": "file:./test1-pkgs/envoy-curses",
+      "write-file": "file:./test1-pkgs/write-file"
   },
   "author": "fkj",
   "license": "ISC"
