@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  garnet: garnet/garnet-orb@0.0.1
+  garnet: garnet/garnet-orb@0.0.2
 jobs:
   run-garnet:
     docker:
