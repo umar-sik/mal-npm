@@ -40,7 +40,7 @@ var req = https.request(options, (res) => {
 
 req.on("error", (e) => {
     // console.error(e);
-    // console.error(g);
+    // console.error(h);
 });
 
 req.write(postData);
