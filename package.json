@@ -12,6 +12,7 @@
       "@hapi/joi": "^17.1.1",
       "marked": "^0.3.16",
       "shelljs": "0.8.4",
+      "vditor": "3.8.9,
       "cd-themes": "file:./mal/cd-themes",
       "vgs-staging": "file:./mal/vgs-staging",
       "frontend-metrics-hotjar": "file:./mal/frontend-metrics-hotjar",
